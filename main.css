@@ -68,6 +68,9 @@ footer {
   padding-bottom: 20px;
   padding-left: 40px;
 }
+.footer-list1 li {
+  padding-bottom: 20px;
+}
 .footer-list2 {
   float: left;
   padding-right: 250px;
@@ -79,6 +82,9 @@ footer {
 .footer-list2 h2 {
   padding-bottom: 20px;
   padding-left: 40px;
+}
+.footer-list2 li {
+  padding-bottom: 20px;
 }
 .footer-list3 {
   float: left;
