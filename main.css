@@ -6,7 +6,8 @@ h1, h2, h3, h4, h5, h6, p, div {
   list-style: none;
 }
 .container {
-  width: 1366px;
+  width: 80%;
+  margin: auto;
 }
 header {
   position: fixed;
@@ -24,7 +25,7 @@ header {
 }
 .header-logo {
   font-size: 17px;
-  padding-left: 150px;
+  /* padding-left: 150px; */
   float: left;
   line-height: 50px;
 }
@@ -37,7 +38,6 @@ header {
 }
 .header-menu {
   float: right;
-  padding-right: 120px;
 }
 .header-menu li {
   float: left;
@@ -63,13 +63,12 @@ footer {
   padding-top: 50px;
 }
 footer nav {
-  width: 85%;
+  width: 80%;
   margin: auto;
-  max-width: 1366px;
 }
+
 .listing {
   width: 33.3%;
-  margin: auto;
 }
 .footer-list {
   float: left;
@@ -79,13 +78,19 @@ footer nav {
   color: white;
 }
 .footer-list h2 {
-  padding-bottom: 20px;
-  padding-left: 40px;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
+  /* padding-left: 40px; */
+}
+.footer-list ul {
+  margin: 0;
+  padding: 0;
 }
 .footer-list li {
   padding-bottom: 5px;
 }
-#list3 li {
+.footer-list3 li {
   float: left;
   padding-right: 20px;
 }
+
