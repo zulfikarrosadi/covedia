@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+  header {
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    z-index: 10;
+    background-color: #eefbff;
+  }
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .header-logo {
+    font-size: 17px;
+    padding-left: 50px;
+    float: left;
+    line-height: 55px;
+  }
+  .header-logo h1 {
+      color: black;
+      display: inline-block;
+      text-decoration: none;
+      font-family: helvetica;
+      font-weight: bold;
+  }
+  .header-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    padding-right: 20px;
+    font-size: 25px;
+  }
+  .header-menu li {
+    float: left;
+    list-style: none;
+    padding-right: 40px;
+    display: block;
+    line-height: 55px;
+    font-weight: bold;
+  }
+  /*Bagian footer */
+  footer {
+    height: 300px;
+    width: 100%;
+    background-color: #1a3a60;
+    color: #fff;
+    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 30px;
+  }
+  footer nav {
+    width: 95%;
+    margin: auto;
+  }
+  .listing {
+    width: 50%;
+    margin: auto;
+  }
+  .footer-list {
+    float: left;
+  }
+  .footer-list a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer-list h2 {
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .footer-list li {
+    padding-bottom: 5px;
+  }
+  #list3 li {
+    float: left;
+    padding-right: 20px;
+  }
+  #list3 {
+    padding-top: 30px;
+  }
+}
+@@media (max-width: 720px) {
+  header {
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    z-index: 10;
+    background-color: #eefbff;
+  }
+  .menu-icon {
+  display: block;
+  }
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .header-logo {
+    font-size: 17px;
+    padding-left: 50px;
+    float: left;
+    line-height: 55px;
+  }
+  .header-logo h1 {
+      color: black;
+      display: inline-block;
+      text-decoration: none;
+      font-family: helvetica;
+      font-weight: bold;
+  }
+  .header-menu {
+    display: none;
+  }
+  /*Bagian footer */
+  footer {
+    height: 300px;
+    width: 100%;
+    background-color: #1a3a60;
+    color: #fff;
+    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 30px;
+  }
+  footer nav {
+    width: 95%;
+    margin: auto;
+  }
+  .listing {
+    width: 100%;
+    margin: auto;
+  }
+  .footer-list {
+    float: left;
+  }
+  .footer-list a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer-list h2 {
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .footer-list li {
+    padding-bottom: 5px;
+  }
+  #list3 li {
+    float: left;
+    padding-right: 20px;
+  }
+  #list3 {
+    padding-top: 30px;
+  }
+}

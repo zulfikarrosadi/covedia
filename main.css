@@ -1,0 +1,91 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0 auto;
+  font-family: helvetica;
+  list-style: none;
+}
+.container {
+  width: 1366px;
+}
+header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  background-color: #eefbff;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.header-logo {
+  font-size: 17px;
+  padding-left: 150px;
+  float: left;
+  line-height: 50px;
+}
+.header-logo h1 {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.header-menu {
+  float: right;
+  padding-right: 120px;
+}
+.header-menu li {
+  float: left;
+  list-style: none;
+  padding-right: 30px;
+  display: block;
+  line-height: 50px;
+  font-weight: bold;
+}
+.header-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer {
+  height: 180px;
+  width: 100%;
+  background-color: #1a3a60;
+  color: #fff;
+  margin-top: 200px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 50px;
+}
+footer nav {
+  width: 85%;
+  margin: auto;
+  max-width: 1366px;
+}
+.listing {
+  width: 33.3%;
+  margin: auto;
+}
+.footer-list {
+  float: left;
+}
+.footer-list a {
+  text-decoration: none;
+  color: white;
+}
+.footer-list h2 {
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+.footer-list li {
+  padding-bottom: 5px;
+}
+.footer-list3 li {
+  float: left;
+  padding-right: 20px;
+}
